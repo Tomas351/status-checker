@@ -4,6 +4,7 @@ on: [push]
 
 permissions:
     packages: write
+    contents: read
 
 jobs:
     build-test:
